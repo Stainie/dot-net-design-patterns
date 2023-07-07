@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Builder.dll": {}
         }
+      },
+      "Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Builder/Builder.csproj",
       "msbuildProject": "../Builder/Builder.csproj"
+    },
+    "Factory/1.0.0": {
+      "type": "project",
+      "path": "../Factory/Factory.csproj",
+      "msbuildProject": "../Factory/Factory.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Builder >= 1.0.0"
+      "Builder >= 1.0.0",
+      "Factory >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Builder\\Builder.csproj"
+            },
+            "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj": {
+              "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj"
             }
           }
         }

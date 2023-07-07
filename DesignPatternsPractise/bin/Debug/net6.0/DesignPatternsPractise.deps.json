@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "DesignPatternsPractise/1.0.0": {
         "dependencies": {
-          "Builder": "1.0.0"
+          "Builder": "1.0.0",
+          "Factory": "1.0.0"
         },
         "runtime": {
           "DesignPatternsPractise.dll": {}
@@ -17,6 +18,11 @@
       "Builder/1.0.0": {
         "runtime": {
           "Builder.dll": {}
+        }
+      },
+      "Factory/1.0.0": {
+        "runtime": {
+          "Factory.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Factory/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -16,3 +16,5 @@ C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\D
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Builder.dll
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Builder.pdb
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\Debug\net6.0\DesignPatternsPractise.csproj.CopyComplete
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Factory.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Factory.pdb
