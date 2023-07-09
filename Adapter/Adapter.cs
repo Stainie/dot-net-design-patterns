@@ -21,10 +21,10 @@
 
     public class AdapteeToAdapter : IAdapter
     {
-        public AdapteeToAdapter(Adaptee square)
+        public AdapteeToAdapter(Adaptee adaptee)
         {
-            PropertyA = square.Property;
-            PropertyB = square.Property;
+            PropertyA = adaptee.Property;
+            PropertyB = adaptee.Property;
         }
 
         public int PropertyA { get; }
