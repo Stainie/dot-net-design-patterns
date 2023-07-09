@@ -34,9 +34,11 @@ public class Program
 
         // Singletons
 
-        var monostate = new Monostate();
-        monostate.Name = "Monostate";
-        monostate.Age = 1;
+        var monostate = new Monostate
+        {
+            Name = "Monostate",
+            Age = 1
+        };
         Console.WriteLine(monostate);
         var monostate2 = new Monostate();
         Console.WriteLine(monostate2);

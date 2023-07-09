@@ -1,5 +1,6 @@
 ﻿namespace Adapter
 {
+    // Adapter pattern lets you wrap an otherwise incompatible object in an adapter to make it compatible with another class.
     public class Adaptee
     {
         public int Property;
