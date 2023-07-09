@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\Factory\Factory.csproj" />
+    <ProjectReference Include="..\Singleton\Singleton.csproj" />
   </ItemGroup>
 
 </Project>

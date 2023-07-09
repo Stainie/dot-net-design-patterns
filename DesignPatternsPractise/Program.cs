@@ -1,6 +1,7 @@
 ﻿using Builder;
 using Factory;
 using Factory.AbstractFactory;
+using Singleton;
 
 namespace DesignPatternsPractise;
 
@@ -30,5 +31,14 @@ public class Program
         var asyncFactory = await  AsyncFactory.Factory.CreateAsync(1);
 
         var abstractFactory = new HomeAnimalFactory().CreateCat().Eat().Sleep();
+
+        // Singletons
+
+        var monostate = new Monostate();
+        monostate.Name = "Monostate";
+        monostate.Age = 1;
+        Console.WriteLine(monostate);
+        var monostate2 = new Monostate();
+        Console.WriteLine(monostate2);
     }
 }

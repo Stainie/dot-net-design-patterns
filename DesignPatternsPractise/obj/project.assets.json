@@ -21,6 +21,16 @@
         "runtime": {
           "bin/placeholder/Factory.dll": {}
         }
+      },
+      "Singleton/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Singleton.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Singleton.dll": {}
+        }
       }
     }
   },
@@ -34,12 +44,18 @@
       "type": "project",
       "path": "../Factory/Factory.csproj",
       "msbuildProject": "../Factory/Factory.csproj"
+    },
+    "Singleton/1.0.0": {
+      "type": "project",
+      "path": "../Singleton/Singleton.csproj",
+      "msbuildProject": "../Singleton/Singleton.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Builder >= 1.0.0",
-      "Factory >= 1.0.0"
+      "Factory >= 1.0.0",
+      "Singleton >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -80,6 +96,9 @@
             },
             "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj": {
               "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj"
+            },
+            "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Singleton\\Singleton.csproj": {
+              "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Singleton\\Singleton.csproj"
             }
           }
         }

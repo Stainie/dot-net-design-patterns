@@ -9,7 +9,8 @@
       "DesignPatternsPractise/1.0.0": {
         "dependencies": {
           "Builder": "1.0.0",
-          "Factory": "1.0.0"
+          "Factory": "1.0.0",
+          "Singleton": "1.0.0"
         },
         "runtime": {
           "DesignPatternsPractise.dll": {}
@@ -23,6 +24,11 @@
       "Factory/1.0.0": {
         "runtime": {
           "Factory.dll": {}
+        }
+      },
+      "Singleton/1.0.0": {
+        "runtime": {
+          "Singleton.dll": {}
         }
       }
     }
@@ -39,6 +45,11 @@
       "sha512": ""
     },
     "Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Singleton/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

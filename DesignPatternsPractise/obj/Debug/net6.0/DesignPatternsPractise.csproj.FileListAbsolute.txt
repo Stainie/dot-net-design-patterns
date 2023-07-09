@@ -18,3 +18,5 @@ C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\D
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\Debug\net6.0\DesignPatternsPractise.csproj.CopyComplete
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Factory.dll
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Factory.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Singleton.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Singleton.pdb

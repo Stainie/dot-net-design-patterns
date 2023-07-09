@@ -1,0 +1,12 @@
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\bin\Debug\net6.0\Singleton.deps.json
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\bin\Debug\net6.0\Singleton.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\bin\Debug\net6.0\Singleton.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.csproj.AssemblyReference.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.AssemblyInfoInputs.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.AssemblyInfo.cs
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\refint\Singleton.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\Singleton.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Singleton\obj\Debug\net6.0\ref\Singleton.dll
