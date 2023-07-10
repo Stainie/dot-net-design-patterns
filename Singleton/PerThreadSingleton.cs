@@ -28,8 +28,11 @@ namespace Singleton
         private static readonly ThreadLocal<PerThreadSingleton> instance = new(() => new PerThreadSingleton());
         public static PerThreadSingleton Instance => instance.Value;
 
+        public int Id { get; }
+
         private PerThreadSingleton()
         {
+            Id = Thread.CurrentThread.ManagedThreadId;
         }
 
         public void DoSomething(string input)

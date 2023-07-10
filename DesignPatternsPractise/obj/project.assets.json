@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Bridge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Bridge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bridge.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -10,6 +20,16 @@
         },
         "runtime": {
           "bin/placeholder/Builder.dll": {}
+        }
+      },
+      "Composite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Composite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Composite.dll": {}
         }
       },
       "Factory/1.0.0": {
@@ -35,10 +55,20 @@
     }
   },
   "libraries": {
+    "Bridge/1.0.0": {
+      "type": "project",
+      "path": "../Bridge/Bridge.csproj",
+      "msbuildProject": "../Bridge/Bridge.csproj"
+    },
     "Builder/1.0.0": {
       "type": "project",
       "path": "../Builder/Builder.csproj",
       "msbuildProject": "../Builder/Builder.csproj"
+    },
+    "Composite/1.0.0": {
+      "type": "project",
+      "path": "../Composite/Composite.csproj",
+      "msbuildProject": "../Composite/Composite.csproj"
     },
     "Factory/1.0.0": {
       "type": "project",
@@ -53,7 +83,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
+      "Composite >= 1.0.0",
       "Factory >= 1.0.0",
       "Singleton >= 1.0.0"
     ]
@@ -91,8 +123,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Bridge\\Bridge.csproj": {
+              "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Bridge\\Bridge.csproj"
+            },
             "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Builder\\Builder.csproj"
+            },
+            "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Composite\\Composite.csproj": {
+              "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Composite\\Composite.csproj"
             },
             "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj": {
               "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Factory\\Factory.csproj"

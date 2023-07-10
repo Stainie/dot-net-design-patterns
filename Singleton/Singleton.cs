@@ -29,7 +29,7 @@ namespace Singleton
     }
     public class SimpleSingleton : ISingleton
     {
-        private static readonly Lazy<SimpleSingleton> instance = new();
+        private static readonly Lazy<SimpleSingleton> instance = new(() => new SimpleSingleton());
         public static SimpleSingleton Instance => instance.Value;
 
         private SimpleSingleton()

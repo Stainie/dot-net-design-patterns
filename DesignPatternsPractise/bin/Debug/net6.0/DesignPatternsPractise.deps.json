@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "DesignPatternsPractise/1.0.0": {
         "dependencies": {
+          "Bridge": "1.0.0",
           "Builder": "1.0.0",
+          "Composite": "1.0.0",
           "Factory": "1.0.0",
           "Singleton": "1.0.0"
         },
@@ -16,9 +18,19 @@
           "DesignPatternsPractise.dll": {}
         }
       },
+      "Bridge/1.0.0": {
+        "runtime": {
+          "Bridge.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "runtime": {
           "Builder.dll": {}
+        }
+      },
+      "Composite/1.0.0": {
+        "runtime": {
+          "Composite.dll": {}
         }
       },
       "Factory/1.0.0": {
@@ -39,7 +51,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bridge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Composite/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

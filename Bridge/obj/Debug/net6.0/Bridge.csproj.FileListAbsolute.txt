@@ -1,0 +1,12 @@
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\bin\Debug\net6.0\Bridge.deps.json
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\bin\Debug\net6.0\Bridge.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\bin\Debug\net6.0\Bridge.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.csproj.AssemblyReference.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.AssemblyInfoInputs.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.AssemblyInfo.cs
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.csproj.CoreCompileInputs.cache
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\refint\Bridge.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\Bridge.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\Bridge\obj\Debug\net6.0\ref\Bridge.dll
