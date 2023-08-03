@@ -1,0 +1,136 @@
+# Visual Studio / Rider / ReSharper
+.vs/
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+*.resharper*
+_ReSharper*/
+*.rider
+
+# Compiled source
+/bin/
+/obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dll.config
+
+# NuGet packages
+/packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio code coverage
+*.opencover.xml
+*.coverage
+.coverage
+*.dotCover
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[*.trx
+[Ll]ocal.[Tt]est[Rr]esult]
+
+# Build results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.cache
+*.tmp
+*.json
+
+# StyleCop
+StyleCopReport.xml
+
+# ReSharper Plugin Cache
+_ReSharper.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject
+[Oo]ut/
+[Dd]ocProject.config
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Paket dependency manager
+.paket/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# TeamCity
+_TeamCity*
+
+# Paket CLI
+.paket/paket.exe
+.paket/paket.bootstrapper.exe
+
+# Cake - Uncomment if you are using it
+# tools/
+# build/
+
+# Xamarin-specific
+bin/
+obj/
++ .vscode/
+# User-specific files
+*.db
+*.db-shm
+*.db-wal
+**/.history
+**/.vscode/*
+**/.vscode/.history/*
+**/.idea/*
+**/.idea/.history/*
+**/.suo
+**/.userprefs
+**/*.sln.DotSettings.user
