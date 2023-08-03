@@ -7,8 +7,39 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Decorator/1.0.0": {
+        "dependencies": {
+          "Rebus.Extensions.Autofac": "1.0.0"
+        },
         "runtime": {
           "Decorator.dll": {}
+        }
+      },
+      "Autofac/3.5.0": {
+        "runtime": {
+          "lib/net40/Autofac.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "Rebus/0.99.42": {
+        "runtime": {
+          "lib/NET45/Rebus.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Rebus.Extensions.Autofac/1.0.0": {
+        "dependencies": {
+          "Autofac": "3.5.0",
+          "Rebus": "0.99.42"
+        },
+        "runtime": {
+          "lib/net45/Rebus.Extensions.Autofac.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -18,6 +49,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ge1fziLkxQhFEBreAaQlFiIVzpL32rSnpInJCJAmfFnHO6ab0VcW+0nzeZWY8WaSkDFcg6KNxB9v4Tp2icnXSg==",
+      "path": "autofac/3.5.0",
+      "hashPath": "autofac.3.5.0.nupkg.sha512"
+    },
+    "Rebus/0.99.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8oFSRA5vDvC752gkdXi0PdNoOSx7j+huPMju3BJ88DT1YDCdqVy+Lbv7RypiNwRSPiT0l+JlPo626Op8NaTkg==",
+      "path": "rebus/0.99.42",
+      "hashPath": "rebus.0.99.42.nupkg.sha512"
+    },
+    "Rebus.Extensions.Autofac/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uzj0nlkiZNTkZJWggV1u1hB0ftpojamzA1bCVApJbn+TbCkVZNBBSA5r6KOKztzHnqryYnbYOe1dmbrMlfy4rg==",
+      "path": "rebus.extensions.autofac/1.0.0",
+      "hashPath": "rebus.extensions.autofac.1.0.0.nupkg.sha512"
     }
   }
 }

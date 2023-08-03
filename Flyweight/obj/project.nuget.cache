@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BHX3pWSvaQCXNkYmnXV75hRopOaXiImCOPlylneljKzPQEaspPpoYBr2KfxUMJAF0tdnKveRH8dJdVwUZ7/Ynw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\Flyweight\\Flyweight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stanko\\.nuget\\packages\\jetbrains.dotmemoryunit\\3.2.20220510\\jetbrains.dotmemoryunit.3.2.20220510.nupkg.sha512",
+    "C:\\Users\\Stanko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Stanko\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Stanko\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
+  "logs": []
+}

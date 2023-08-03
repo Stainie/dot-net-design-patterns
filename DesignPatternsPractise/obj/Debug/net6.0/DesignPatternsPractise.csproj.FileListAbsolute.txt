@@ -28,3 +28,6 @@ C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\D
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Decorator.dll
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Adapter.pdb
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Decorator.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Autofac.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Rebus.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Rebus.Extensions.Autofac.dll

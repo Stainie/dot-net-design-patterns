@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pSOVmiSOJE2WSOhqCzB/vsSArBWZ7cjeNX23xoHJb4J3bai4j23qyT00cARHk2o1PQ2O2wRmzsjyI0Gvh0J85w==",
+  "dgSpecHash": "jvRUo8+QfQCLU0axifqLHHEleek96TxjjTwigQLilrdrtROIVdzjf1RMxlMCTkCEQ7Zccm+hw42aM7YuHjsNMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\DesignPatternsPractise.csproj",
+  "projectFilePath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stanko\\.nuget\\packages\\autofac\\3.5.0\\autofac.3.5.0.nupkg.sha512",
     "C:\\Users\\Stanko\\.nuget\\packages\\rebus\\0.99.42\\rebus.0.99.42.nupkg.sha512",

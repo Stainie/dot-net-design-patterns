@@ -239,9 +239,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\DesignPatternsPractise.csproj",
-      "projectName": "DesignPatternsPractise",
-      "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\DesignPatternsPractise.csproj",
+      "projectUniqueName": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\Main.csproj",
       "packagesPath": "C:\\Users\\Stanko\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\obj\\",
       "projectStyle": "PackageReference",

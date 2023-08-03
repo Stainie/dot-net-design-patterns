@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsPractise", "DesignPatternsPractise\DesignPatternsPractise.csproj", "{2B6D2964-FBC2-45BE-B3BB-89C6A4E357CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "DesignPatternsPractise\Main.csproj", "{2B6D2964-FBC2-45BE-B3BB-89C6A4E357CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{CCF9B61C-79FB-48F8-A42A-1B6EDEF1D0C6}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{DC0489AA-35EF-40A1-8891-91DB0D37DFC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F4AB1411-6D51-4FBC-9831-E2A84E054EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{32274B8D-61A6-423B-A326-DD35AF8ABF03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F4AB1411-6D51-4FBC-9831-E2A84E054EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4AB1411-6D51-4FBC-9831-E2A84E054EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4AB1411-6D51-4FBC-9831-E2A84E054EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32274B8D-61A6-423B-A326-DD35AF8ABF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32274B8D-61A6-423B-A326-DD35AF8ABF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32274B8D-61A6-423B-A326-DD35AF8ABF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32274B8D-61A6-423B-A326-DD35AF8ABF03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
