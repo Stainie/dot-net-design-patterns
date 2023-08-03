@@ -8,9 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Rebus.Extensions.Autofac" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\Bridge\Bridge.csproj" />
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\Composite\Composite.csproj" />
+    <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
   </ItemGroup>

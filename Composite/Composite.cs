@@ -4,6 +4,11 @@ using Microsoft.VisualBasic.CompilerServices;
 
 namespace Composite
 {
+    /*
+     *     * The Composite pattern is used when you want to treat a group of objects in a similar way to a single object.
+     *         * It composes objects into tree structures to represent part-whole hierarchies.
+     *             * It lets clients treat individual objects and compositions of objects uniformly.
+     *                 */
     public class CompositeBase
     {
         public virtual string Name { get; set; } = "Base";

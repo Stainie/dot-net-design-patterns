@@ -1,6 +1,9 @@
-﻿using Bridge;
+﻿using Adapter;
+using Autofac;
+using Bridge;
 using Builder;
 using Composite;
+using Decorator;
 using Factory;
 using Factory.AbstractFactory;
 using Singleton;
@@ -76,5 +79,21 @@ public class Program
         compositeChild.Children.Add(new Composite2() { Name = "Composite Child 2" });
         compositeBase.Children.Add(compositeChild);
         Console.WriteLine(compositeBase);
+
+        // Adapter
+
+        var adaptee = new Adaptee() { Property = 1 };
+        var adapter = new AdapteeToAdapter(adaptee);
+        Console.WriteLine($"Adapter - PropertyA: {adapter.PropertyA}, PropertyB: {adapter.PropertyB}, Sum: {adapter.PropSum()}");
+
+        // Decorator
+
+        var decoratedService = new Service();
+        var decorator = new ServiceDecorator(decoratedService);
+        decorator.DoSomething();
+
+        var cb = new ContainerBuilder();    // Using decorator with dependency injection
+        cb.RegisterType<Service>().Named<IService>("decorated service");
+        cb.RegisterDecorator<IService>((c, inner) => new ServiceDecorator(inner), "decorator service");
     }
 }

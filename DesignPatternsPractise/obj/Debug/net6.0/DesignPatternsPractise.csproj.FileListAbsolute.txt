@@ -24,3 +24,7 @@ C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\D
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\Debug\net6.0\DesignPatternsPractise.pdb
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\Debug\net6.0\DesignPatternsPractise.genruntimeconfig.cache
 C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\obj\Debug\net6.0\ref\DesignPatternsPractise.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Adapter.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Decorator.dll
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Adapter.pdb
+C:\Users\Stanko\source\repos\DesignPatternsPractise\DesignPatternsPractise\bin\Debug\net6.0\Decorator.pdb

@@ -8,14 +8,21 @@
     ".NETCoreApp,Version=v6.0": {
       "DesignPatternsPractise/1.0.0": {
         "dependencies": {
+          "Adapter": "1.0.0",
           "Bridge": "1.0.0",
           "Builder": "1.0.0",
           "Composite": "1.0.0",
+          "Decorator": "1.0.0",
           "Factory": "1.0.0",
           "Singleton": "1.0.0"
         },
         "runtime": {
           "DesignPatternsPractise.dll": {}
+        }
+      },
+      "Adapter/1.0.0": {
+        "runtime": {
+          "Adapter.dll": {}
         }
       },
       "Bridge/1.0.0": {
@@ -31,6 +38,11 @@
       "Composite/1.0.0": {
         "runtime": {
           "Composite.dll": {}
+        }
+      },
+      "Decorator/1.0.0": {
+        "runtime": {
+          "Decorator.dll": {}
         }
       },
       "Factory/1.0.0": {
@@ -51,6 +63,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Bridge/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -62,6 +79,11 @@
       "sha512": ""
     },
     "Composite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Decorator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

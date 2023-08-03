@@ -1,8 +1,43 @@
 {
   "version": 2,
-  "dgSpecHash": "zsmatViIHF3z686dt9Bdx1szPhEw3RJDvTWwgjRMuDLTe4iJQKsB1NkRxjpMb+gNT9FlOZZYoNQDR2/ExpeD7w==",
+  "dgSpecHash": "pSOVmiSOJE2WSOhqCzB/vsSArBWZ7cjeNX23xoHJb4J3bai4j23qyT00cARHk2o1PQ2O2wRmzsjyI0Gvh0J85w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stanko\\source\\repos\\DesignPatternsPractise\\DesignPatternsPractise\\DesignPatternsPractise.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Stanko\\.nuget\\packages\\autofac\\3.5.0\\autofac.3.5.0.nupkg.sha512",
+    "C:\\Users\\Stanko\\.nuget\\packages\\rebus\\0.99.42\\rebus.0.99.42.nupkg.sha512",
+    "C:\\Users\\Stanko\\.nuget\\packages\\rebus.extensions.autofac\\1.0.0\\rebus.extensions.autofac.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autofac 3.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Rebus 0.99.42' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Rebus",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Rebus.Extensions.Autofac 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Rebus.Extensions.Autofac",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
