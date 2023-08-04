@@ -7,6 +7,11 @@ namespace Proxy
      *     * Dynamic proxy is used for proxying objects at runtime.
      *     * Used for metaprogramming - in examples such as serialization.
      *         * Commonly used in mocking frameworks.
+     *          * Difference compared to a Decorator is:
+     *              - a Decorator is used for adding functionality to an object,
+     *                  proxy provides an identical interface to the original object.
+     *              - a Decorator has a reference to the original object (often as a construction parameter),
+     *                  proxy works with generics
      *             */
     public class DynamicProxy<T> : DynamicObject where T : class, new()
     {
