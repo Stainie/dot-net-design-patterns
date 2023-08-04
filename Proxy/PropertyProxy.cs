@@ -1,5 +1,10 @@
 ﻿namespace Proxy
 {
+    /*
+     * We use property proxy when we want to intercept the assignment of a value to a property.
+     * This is useful for extra control over the assignment of a value to a property.
+     * This is substituting a property assignment override in C++.
+     */
     public class PropertyProxy<T> : IEquatable<PropertyProxy<T>> where T : new()
     {
         private T value;

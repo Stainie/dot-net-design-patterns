@@ -6,6 +6,7 @@ using Composite;
 using Decorator;
 using Factory;
 using Factory.AbstractFactory;
+using Proxy;
 using Singleton;
 
 namespace DesignPatternsPractise;
@@ -95,5 +96,10 @@ public class Program
         var cb = new ContainerBuilder();    // Using decorator with dependency injection
         cb.RegisterType<Service>().Named<IService>("decorated service");
         cb.RegisterDecorator<IService>((c, inner) => new ServiceDecorator(inner), "decorator service");
+
+        // Proxy
+        
+        var proxy = new PropertyProxy<int>(1);
+        proxy.Value = 2;
     }
 }
