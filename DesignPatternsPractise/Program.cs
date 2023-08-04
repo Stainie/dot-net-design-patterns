@@ -112,5 +112,9 @@ public class Program
         {
             item.Value++;
         }
+
+        var proxiedClass = DynamicProxy<ProxiedClass>.As<IProxiedInterface>();
+        proxiedClass.DoSomething();
+        proxiedClass.SomethingElse("test");
     }
 }
