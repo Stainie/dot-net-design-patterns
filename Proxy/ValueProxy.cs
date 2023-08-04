@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Proxy
 {
+    /* 
+     * We use Value proxy for proxying primitive values, to have extra control over the implicit operations 
+     */
     public struct ValueProxy
     {
         private readonly int value;
 
-        internal ValueProxy(int value)
+        public ValueProxy(int value)
         {
             this.value = value;
         }

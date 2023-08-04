@@ -101,5 +101,16 @@ public class Program
         
         var proxy = new PropertyProxy<int>(1);
         proxy.Value = 2;
+        Console.WriteLine(proxy.Value);
+
+        var valueProxy = new ValueProxy(1);
+        valueProxy += 2;
+        Console.WriteLine(valueProxy);
+
+        var proxyItems = new CPItems(100);
+        foreach (var item in proxyItems)
+        {
+            item.Value++;
+        }
     }
 }
