@@ -2,6 +2,7 @@
 using Autofac;
 using Bridge;
 using Builder;
+using ChainOfResponsibility;
 using Composite;
 using Decorator;
 using Factory;
@@ -116,5 +117,11 @@ public class Program
         var proxiedClass = DynamicProxy<ProxiedClass>.As<IProxiedInterface>();
         proxiedClass.DoSomething();
         proxiedClass.SomethingElse("test");
+
+        // Chain of responsibility
+
+        var chainModel = new MethodChainModel(1, "test");
+        var chainModifier = new ChainModifier(chainModel);
+        chainModifier.Add(new ModelModifier(chainModel)).Handle();
     }
 }
