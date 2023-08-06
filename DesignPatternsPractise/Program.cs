@@ -120,8 +120,18 @@ public class Program
 
         // Chain of responsibility
 
-        var chainModel = new MethodChainModel(1, "test");
-        var chainModifier = new ChainModifier(chainModel);
-        chainModifier.Add(new ModelModifier(chainModel)).Handle();
+        var methodChainModel = new MethodChainModel(1, "test");
+        var chainModifier = new ChainModifier(methodChainModel);
+        chainModifier.Add(new ModelModifier(methodChainModel)).Handle();
+
+        var eventHandler = new BrokerEventHandler();
+        var brokerChainModel = new BrokerChainModel(eventHandler, "test", 0, 0);
+
+        using (new QueryProp1Modifier(eventHandler, brokerChainModel))
+        {
+            Console.WriteLine(brokerChainModel);
+        }
+
+        Console.WriteLine(brokerChainModel);
     }
 }
