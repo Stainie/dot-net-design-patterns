@@ -1,4 +1,7 @@
-﻿namespace ChainOfResponsibility
+﻿using System.Reflection.Metadata;
+using System.Text;
+
+namespace ChainOfResponsibility
 {
     /*
      * Method chain is a linked list of modifiers that can be applied to a model.
