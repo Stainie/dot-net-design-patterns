@@ -7,6 +7,7 @@ using Composite;
 using Decorator;
 using Factory;
 using Factory.AbstractFactory;
+using Iterator;
 using Proxy;
 using Singleton;
 
@@ -133,5 +134,14 @@ public class Program
         }
 
         Console.WriteLine(brokerChainModel);
+
+        // Iterator
+
+        var root = new Node<int>(1, new Node<int>(2), new Node<int>(3));
+
+        var tree = new BinaryTree<int>(root);
+        Console.WriteLine(string.Join(",", tree.InOrderTraversal.Select(x => x.Value)));
+        Console.WriteLine(string.Join(",", tree.PreorderTraversal.Select(x => x.Value)));
+        Console.WriteLine(string.Join(",", tree.PostorderTraversal.Select(x => x.Value)));
     }
 }
