@@ -1,5 +1,10 @@
 ﻿namespace Iterator
 {
+
+    /*
+     * We use this pattern to traverse a structure.
+     * C# provides IEnumerable<T> and IEnumerator<T> interfaces to implement this pattern with yielding.
+     */
     public class BinaryTree<T>
     {
         private Node<T> Root { get; set; }
