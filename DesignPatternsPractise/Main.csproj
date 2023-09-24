@@ -24,6 +24,7 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Iterator\Iterator.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
     <ProjectReference Include="..\Proxy\Proxy.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
   </ItemGroup>

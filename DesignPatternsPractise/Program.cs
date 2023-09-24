@@ -8,6 +8,7 @@ using Decorator;
 using Factory;
 using Factory.AbstractFactory;
 using Iterator;
+using Mediator;
 using Proxy;
 using Singleton;
 
@@ -143,5 +144,20 @@ public class Program
         Console.WriteLine(string.Join(",", tree.InOrderTraversal.Select(x => x.Value)));
         Console.WriteLine(string.Join(",", tree.PreorderTraversal.Select(x => x.Value)));
         Console.WriteLine(string.Join(",", tree.PostorderTraversal.Select(x => x.Value)));
+
+        // Mediator
+
+        cb.RegisterType<EventBroker>().SingleInstance();
+        cb.RegisterType<ActorA>();
+        cb.RegisterType<ActorB>();
+
+        using (var c = cb.Build())
+        {
+            var actorA = c.Resolve<ActorA>();
+            var actorB = c.Resolve<ActorB>();
+
+            actorA.DoSomething();
+            actorB.DoSomething();
+        }
     }
 }
