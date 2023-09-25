@@ -4,6 +4,11 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Mediator
 {
+    /*
+     * Purpose of Mediator pattern is to reduce coupling between components
+     * by introducing a mediator object that handles all communication between them.
+     * Think of a chat room or multiplayer game
+     */
     public class Actor
     {
         protected EventBroker broker;

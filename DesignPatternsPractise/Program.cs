@@ -9,6 +9,7 @@ using Factory;
 using Factory.AbstractFactory;
 using Iterator;
 using Mediator;
+using Memento;
 using Proxy;
 using Singleton;
 
@@ -159,5 +160,16 @@ public class Program
             actorA.DoSomething();
             actorB.DoSomething();
         }
+
+        // Memento
+
+        var originator = new SimpleOriginator(100);
+        originator.SetStateValue(200);
+        originator.SetStateValue(300);
+        Console.WriteLine(originator);
+
+        originator.Undo();
+        Console.WriteLine(originator);
+        originator.Redo();
     }
 }
