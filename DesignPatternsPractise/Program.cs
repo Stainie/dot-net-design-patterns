@@ -179,6 +179,12 @@ public class Program
         observer.EventHandler += CallInvocation;
         observer.InvokeEvent();
         observer.EventHandler -= CallInvocation;
+
+        var eventModel = new EventModel();
+        var eventSubscriber = new EventSubscriber();
+        IDisposable sub = eventModel.Subscribe(eventSubscriber);
+
+        eventModel.FireEvent();
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
