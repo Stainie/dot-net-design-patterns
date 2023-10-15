@@ -10,6 +10,7 @@ using Factory.AbstractFactory;
 using Iterator;
 using Mediator;
 using Memento;
+using Observer;
 using Proxy;
 using Singleton;
 
@@ -171,5 +172,17 @@ public class Program
         originator.Undo();
         Console.WriteLine(originator);
         originator.Redo();
+
+        // Observer
+
+        var observer = new EventObserver();
+        observer.EventHandler += CallInvocation;
+        observer.InvokeEvent();
+        observer.EventHandler -= CallInvocation;
+    }
+
+    public static void CallInvocation(object sender, EventArguments eventArguments)
+    {
+        Console.WriteLine($"Event invoked: {eventArguments.Message}");
     }
 }

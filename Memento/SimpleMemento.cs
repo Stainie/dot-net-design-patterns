@@ -1,5 +1,9 @@
 ﻿namespace Memento
 {
+    /*
+     * Purpose of Memento pattern is to capture and store the current state of an object in a manner that it can be restored later on in a smooth manner.
+     * Every object has a state and we can store this state in a separate object and restore it when needed.
+     */
     public class SimpleMemento
     {
         public int StateValue { get; }
