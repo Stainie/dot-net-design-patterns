@@ -1,4 +1,6 @@
-﻿namespace Observer
+﻿using System.ComponentModel;
+
+namespace Observer
 {
     /*
      * Implementing the observer pattern using built-in .NET event system.
@@ -17,5 +19,15 @@
     public class EventArguments
     {
         public string Message { get; set; }
+    }
+
+    public class ObservableCollections
+    {
+        public BindingList<int> BindingList = new BindingList<int>();
+
+        public void Add(int value)
+        {
+            BindingList.Add(value);
+        }
     }
 }

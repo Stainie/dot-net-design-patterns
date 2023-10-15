@@ -13,6 +13,7 @@ using Memento;
 using Observer;
 using Proxy;
 using Singleton;
+using System.ComponentModel;
 
 namespace DesignPatternsPractise;
 
@@ -39,7 +40,7 @@ public class Program
 
         var simpleFactory = SimpleFactory.Factory.CreateNormal(1, 2);
 
-        var asyncFactory = await  AsyncFactory.Factory.CreateAsync(1);
+        var asyncFactory = await AsyncFactory.Factory.CreateAsync(1);
 
         var abstractFactory = new HomeAnimalFactory().CreateCat().Eat().Sleep();
 
@@ -77,8 +78,8 @@ public class Program
         // Composite
 
         var compositeBase = new CompositeBase() { Name = "Base" };
-        compositeBase.Children.Add(new Composite1() {Name = "Composite 1"});
-        compositeBase.Children.Add(new Composite2() { Name = "Composite 2"});
+        compositeBase.Children.Add(new Composite1() { Name = "Composite 1" });
+        compositeBase.Children.Add(new Composite2() { Name = "Composite 2" });
 
         var compositeChild = new CompositeBase() { Name = "Child" };
         compositeChild.Children.Add(new Composite1() { Name = "Composite Child 1" });
@@ -103,7 +104,7 @@ public class Program
         cb.RegisterDecorator<IService>((c, inner) => new ServiceDecorator(inner), "decorator service");
 
         // Proxy
-        
+
         var proxy = new PropertyProxy<int>(1);
         proxy.Value = 2;
         Console.WriteLine(proxy.Value);
@@ -179,6 +180,15 @@ public class Program
         observer.EventHandler += CallInvocation;
         observer.InvokeEvent();
         observer.EventHandler -= CallInvocation;
+        var observableCollections = new ObservableCollections();
+        observableCollections.BindingList.ListChanged += (sender, args) =>
+        {
+            if (args.ListChangedType == ListChangedType.ItemAdded)
+            {
+                int item = ((BindingList<int>)sender)[args.NewIndex];
+                Console.WriteLine($"List changed: {args.ListChangedType}");
+            }
+        };
 
         var eventModel = new EventModel();
         var eventSubscriber = new EventSubscriber();
