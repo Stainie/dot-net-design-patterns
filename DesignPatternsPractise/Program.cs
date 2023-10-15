@@ -195,6 +195,13 @@ public class Program
         IDisposable sub = eventModel.Subscribe(eventSubscriber);
 
         eventModel.FireEvent();
+
+        var modelA = new ObserverModelA{ Name = "Name A"};
+        var modelB = new ObserverModelB { DisplayName = "Display B" };
+        using var binding = new BidirectionalBindingObserver(modelA, () => modelA.Name, modelB, () => modelB.DisplayName);
+        modelA.Name = "Name B";
+        Console.WriteLine(modelB);
+        Console.WriteLine(modelA);
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
