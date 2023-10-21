@@ -68,4 +68,60 @@
             }
         }
     }
+
+    public class Game
+    {
+        public event Action<Rat> RatEnters = delegate { };
+        public event Action<Rat> RatLeaves = delegate { };
+
+        public void RatEntering(Rat rat)
+        {
+            RatEnters?.Invoke(rat);
+        }
+
+        public void RatLeaving(Rat rat)
+        {
+            RatLeaves?.Invoke(rat);
+        }
+    }
+
+    public class Rat : IDisposable
+    {
+        public int Attack = 1;
+        public readonly Game Game;
+
+        public Rat(Game game)
+        {
+            Game = game;
+
+            Game.RatEnters += OnRatEnters;
+            Game.RatLeaves += OnRatLeaves;
+
+            Game.RatEntering(this);
+        }
+
+
+        public void Dispose()
+        {
+            Game.RatLeaving(this);
+        }
+
+        private void OnRatEnters(Rat rat)
+        {
+            if (rat != this)
+            {
+                ++Attack;
+                rat.Attack++;
+            }
+        }
+
+        private void OnRatLeaves(Rat rat)
+        {
+            if (rat != this)
+            {
+                --Attack;
+                rat.Attack--;
+            }
+        }
+    }
 }
