@@ -1,5 +1,9 @@
 ﻿using System.Text;
 
+
+/*
+ * Strategy pattern is used when we have multiple algorithms for a specific task and client decides the actual implementation to be used at runtime.
+ */
 namespace Strategy
 {
     public enum TextFormatType

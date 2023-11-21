@@ -16,6 +16,8 @@ using Singleton;
 using State;
 using Strategy;
 using System.ComponentModel;
+using System.Text;
+using Visitor;
 
 namespace DesignPatternsPractise;
 
@@ -214,6 +216,13 @@ public class Program
 
         var chocolate = new ChocolateGenerator<WhiteChocolate>();
         Console.WriteLine(chocolate.GetChocolateType());
+
+        // Visitor
+
+        var addition = new AdditionExpression(new DoubleExpression(1), new DoubleExpression(2));
+        var expressionPrinter = new ExpressionPrinter();
+        expressionPrinter.Visit(addition);
+        Console.WriteLine(expressionPrinter);
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
