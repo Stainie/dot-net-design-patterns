@@ -211,6 +211,9 @@ public class Program
         formatter.SetFormat(TextFormatType.Markdown);
         formatter.AppendList(new[] { "test1", "test2" });
         Console.WriteLine(formatter);
+
+        var chocolate = new ChocolateGenerator<WhiteChocolate>();
+        Console.WriteLine(chocolate.GetChocolateType());
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
