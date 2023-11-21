@@ -14,6 +14,7 @@ using Observer;
 using Proxy;
 using Singleton;
 using State;
+using Strategy;
 using System.ComponentModel;
 
 namespace DesignPatternsPractise;
@@ -203,6 +204,13 @@ public class Program
         modelA.Name = "Name B";
         Console.WriteLine(modelB);
         Console.WriteLine(modelA);
+
+        // Strategy
+
+        var formatter = new TextProcessor();
+        formatter.SetFormat(TextFormatType.Markdown);
+        formatter.AppendList(new[] { "test1", "test2" });
+        Console.WriteLine(formatter);
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
