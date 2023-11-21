@@ -223,6 +223,12 @@ public class Program
         var expressionPrinter = new ExpressionPrinter();
         expressionPrinter.Visit(addition);
         Console.WriteLine(expressionPrinter);
+
+        var printTransformer = new PrintTransformer();
+        var doubleReducer = new DoubleReducer(2);
+        var additionReducer = new AdditionReducer(new DoubleReducer(1), new DoubleReducer(3));
+        printTransformer.Transform(doubleReducer);
+        printTransformer.Transform(additionReducer);
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)

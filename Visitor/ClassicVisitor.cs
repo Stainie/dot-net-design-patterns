@@ -1,5 +1,8 @@
 ﻿using System.Text;
 
+/*
+ * We use Visitor for accessing operations without extending the whole class hierarchy and having access to all operations.
+ */
 namespace Visitor
 {
     public interface IExpressionVisitor

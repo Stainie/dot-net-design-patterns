@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Reducer and Transformer is the type of Visitor that is helpful when we want to return the value of Visit operation without adding code smell.
+ * */
 namespace Visitor
 {
     public interface ITransform<out R>
