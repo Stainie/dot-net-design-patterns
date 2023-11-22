@@ -1,1 +1,28 @@
 # dot-net-design-patterns
+
+- Practise project giving examples of Coding design patterns in C#
+- We separate the patterns in following categories:
+  - Creational:
+    - Builder - For constructing an object piece by piece, mostly used for complex objects
+    - Factory - For constructing a wholesale object, more descriptive than a regular constructor
+    - Prototype - Creating an object from existing object, deep or shallow copy
+    - Singleton - For creating a single instance of an object
+  - Structural:
+    - Adapter - Converts an interface into interface you need
+    - Bridge - Composition over abstractrion
+    - Composition - Uniformly treat objects and object compositions of the same type, mostly for tree like structures
+    - Decorator - Extending the functionality of a certain interface without directly inheriting from it
+    - Facade - Uniformed set of classes in a single interface
+    - Flyweight - Space optimization technique for a big group of similar objects
+    - Proxy - Used for additional checks before performing a certain functionality
+  - Behavioral:
+    - Chain of responsibility - Access information or process events in chain
+    - Command - Encapsulate request in a single object, mostly used as a shapshot
+    - Interpreter - Transforming text into an encapsulated object
+    - Iterator - Providing an interface for accessing objects of an aggregate type
+    - Mediator - Providing mediation between two interfaces / systems
+    - Memento - For tracking system states in sequence of snapshots
+    - Observer - For subscribing to a certain event, and triggering at a certain condition
+    - State - For tracking states and transitions between them (state machine)
+    - Strategy / Template object - For defining a blueprint of algorithm. Strategy uses composition, while TO uses inheritance
+    - Visitor - adding an additional functionality to a hierarchy
