@@ -229,6 +229,13 @@ public class Program
         var additionReducer = new AdditionReducer(new DoubleReducer(1), new DoubleReducer(3));
         printTransformer.Transform(doubleReducer);
         printTransformer.Transform(additionReducer);
+        Console.WriteLine(printTransformer);
+
+        var acyclicDouble = new AcyclicDoubleExpression(1);
+        var acyclicAddition = new AcyclicAdditionExpression(new AcyclicDoubleExpression(1), new AcyclicDoubleExpression(2));
+        var acyclicPrinter = new AcyclicExpressionPrinter();
+        acyclicPrinter.Visit(acyclicAddition);
+        Console.WriteLine(acyclicPrinter);
     }
 
     public static void CallInvocation(object sender, EventArguments eventArguments)
